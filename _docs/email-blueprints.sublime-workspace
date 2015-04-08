@@ -1,0 +1,831 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"wid",
+				"width"
+			],
+			[
+				"is",
+				"isPast"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"text-",
+				"text-decoration"
+			],
+			[
+				"form",
+				"form-control"
+			],
+			[
+				"h",
+				"h1	Tag"
+			],
+			[
+				"pan",
+				"panel-body"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"border-c",
+				"border-color"
+			],
+			[
+				"css",
+				"CssClass"
+			],
+			[
+				"im",
+				"important"
+			],
+			[
+				"ORDER",
+				"orderby"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 367.0,
+		"last_filter": "vb",
+		"selected_items":
+		[
+			[
+				"vb",
+				"Set Syntax: VBScript"
+			],
+			[
+				"format",
+				"Tag: Auto-Format Tags on Selection"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"list pack",
+				"Package Control: List Packages"
+			],
+			[
+				"html",
+				"HTMLPrettify"
+			],
+			[
+				"prett",
+				"HTMLPrettify"
+			],
+			[
+				"yaml",
+				"Set Syntax: YAML"
+			],
+			[
+				"terminal",
+				"Preferences: Terminal Settings – Default"
+			],
+			[
+				"preview",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"lin",
+				"Snippet: Markdown_link_(mdl)"
+			],
+			[
+				"lin	",
+				"Snippet: Markdown_link_(mdl)"
+			],
+			[
+				"link",
+				"Snippet: Markdown_link_(mdl)"
+			],
+			[
+				"link	",
+				"Snippet: Markdown_link_(mdl)"
+			],
+			[
+				"gfm",
+				"Set Syntax: Markdown GFM"
+			],
+			[
+				"task",
+				"Set Syntax: Tasks"
+			],
+			[
+				"markdown",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"tasks",
+				"Set Syntax: Tasks"
+			],
+			[
+				"sq",
+				"Set Syntax: SQL"
+			],
+			[
+				"gist",
+				"Gist: Open Gist"
+			],
+			[
+				"for",
+				"CodeFormatter: Format as HTML Syntax"
+			],
+			[
+				"forma",
+				"CodeFormatter: Format as HTML Syntax"
+			],
+			[
+				"gists",
+				"Gist: Open Gist"
+			],
+			[
+				"evernote",
+				"Evernote: Send to Evernote as new note"
+			],
+			[
+				"asp",
+				"Set Syntax: HTML (ASP)"
+			],
+			[
+				"remove picke",
+				"Tag: Remove Picked Tags in Document"
+			],
+			[
+				"tag",
+				"Tag: Remove Picked Attributes From Tags in Document"
+			],
+			[
+				"form",
+				"Format Code"
+			],
+			[
+				"evern",
+				"Evernote: Send to Evernote"
+			],
+			[
+				"ev",
+				"Evernote: Send to Evernote"
+			],
+			[
+				"ever",
+				"Evernote: Send to Evernote"
+			],
+			[
+				"as",
+				"Set Syntax: HTML (ASP)"
+			],
+			[
+				"txt",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"gi",
+				"Gist: Open Gist"
+			],
+			[
+				"htm",
+				"Set Syntax: HTML"
+			],
+			[
+				"mark",
+				"Set Syntax: Markdown GFM"
+			],
+			[
+				"markdo",
+				"Set Syntax: Markdown"
+			],
+			[
+				"send to ",
+				"Evernote: Send to Evernote"
+			],
+			[
+				"git",
+				"GitHub Flavored Markdown: Preview"
+			],
+			[
+				"github",
+				"GitHub Flavored Markdown: Preview"
+			],
+			[
+				"send",
+				"Evernote: Send to Evernote"
+			],
+			[
+				"yam",
+				"Set Syntax: YAML"
+			],
+			[
+				"Package Control: inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"add",
+				"Package Control: Add Repository"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 579.0
+	},
+	"console":
+	{
+		"height": 160.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Volumes/web/_projects/email-blueprints"
+	],
+	"file_history":
+	[
+		"/Volumes/web/_projects/email-blueprints/README.md",
+		"/Volumes/Web/thewalters/events/index.aspx",
+		"/Volumes/Web/thewalters/events/index.aspx.vb",
+		"/Volumes/Web/thewalters/assets/less/_variables.less",
+		"/Volumes/Web/thewalters/assets/vendor/bootstrap/less/type.less",
+		"/Volumes/Web/thewalters/assets/less/layouts/_general.less",
+		"/Volumes/Web/thewalters/assets/less/layouts/_pages.less",
+		"/Volumes/Web/thewalters/assets/less/main.less",
+		"/Volumes/Web/thewalters/assets/less/_global.less",
+		"/Volumes/Web/thewalters/giving/index.aspx",
+		"/Volumes/Web/thewalters/masterpages/give.master",
+		"/Volumes/Web/thewalters/masterpages/basepage-bootstrap-simple.master",
+		"/Users/Dylan/Desktop/BUG.txt",
+		"/Volumes/Web/thewalters/admin/events/editphoto.aspx",
+		"/Volumes/Web/thewalters/admin/events/edit.aspx",
+		"/Volumes/Web/thewalters/boxoffice/tickets5.aspx",
+		"/Volumes/Web/thewalters/boxoffice/tickets8.aspx",
+		"/Volumes/Web/thewalters/boxoffice/tickets8_BAK.aspx",
+		"/Volumes/Web/thewalters/admin/events/img.aspx",
+		"/Volumes/web/_projects/mou-invite/invite-text.txt",
+		"/Volumes/Web/thewalters/boxoffice/thankyou.aspx",
+		"/Volumes/Web/thewalters/donate/index.aspx",
+		"/Volumes/Web/thewalters/membership/register/index2.aspx",
+		"/Volumes/web/_projects/member-data-processing/README.txt",
+		"/Volumes/web/_projects/member-data-processing/upload-members-ftp.txt",
+		"/Volumes/web/_projects/member-data-processing/_old/upload-member-data-ftp.txt",
+		"/Users/Dylan/Desktop/upload-member-data-ftp.txt",
+		"/Volumes/web/_projects/member-data-processing/upload-member-data-ftp.txt",
+		"/Volumes/web/_projects/member-data-processing/_old/upload-member-data-ftp OLD.txt",
+		"/Volumes/Web/thewalters/boxoffice/boxoffice.aspx",
+		"/Volumes/web/_projects/member-data-processing/upload member data.lnk",
+		"/Volumes/Web/thewalters/wcontent/pages/themuseum_annualreport.html",
+		"/Volumes/Web/thewalters/about/annual-report.aspx",
+		"/Volumes/Web/thewalters/teachers/events/index.aspx",
+		"/Volumes/Web/thewalters/education_art/index.aspx",
+		"/Volumes/Web/thewalters/programs/index.aspx",
+		"/Volumes/Web/thewalters/education/index.aspx",
+		"/Volumes/Web/thewalters/wcontent/pages/education.html",
+		"/Volumes/Web/thewalters/programs/_sidenav.ascx",
+		"/Volumes/Web/thewalters/programs/_sidenav2.ascx",
+		"/Volumes/Web/thewalters/programs/community/index.aspx",
+		"/Volumes/Web/thewalters/programs/community/exhibitions.aspx",
+		"/Volumes/Web/thewalters/visit/_sidenav.ascx",
+		"/Volumes/Web/thewalters/masterpages/edu.master",
+		"/Volumes/web/_docs/specs/specifications.txt",
+		"/Volumes/Web/thewalters/boxoffice/shippinginfo.aspx",
+		"/Volumes/Web/thewalters/boxoffice/tickets4.aspx",
+		"/Volumes/Web/thewalters/boxoffice/tickets4.aspx.vb",
+		"/Volumes/Web/thewalters/boxoffice/tickets4_BAK.aspx",
+		"/Volumes/Web/thewalters/controls/header.ascx",
+		"/Volumes/Web/thewalters/assets/less/components/_forms.less",
+		"/Users/Dylan/Library/Application Support/Sublime Text 3/Packages/Terminal/Terminal.sublime-settings",
+		"/Volumes/Shared/artbytes/artbytes2/Photos old/photos/ArtBytes-Sunday/Walters Hackathon/HELP_DECRYPT.TXT",
+		"/Volumes/Web/thewalters/boxoffice/tickets3.aspx",
+		"/Users/Dylan/Library/Caches/Cleanup At Startup/Transmit/E47D7DCD-D879-4255-8C81-92044DC0BF53/README",
+		"/Volumes/Shared/artbytes/artbytes3/docs/email-to-participants.txt",
+		"/Users/Dylan/Dropbox/pandoc-sandbox/README.txt",
+		"/Users/Dylan/Dropbox/pandoc-sandbox/sample.md",
+		"/Users/Dylan/Dropbox/pandoc-sandbox/sample.tex",
+		"/Users/Dylan/Desktop/renewal-cheatsheet.txt",
+		"/Volumes/Web/thewalters/events/eventdetails.aspx",
+		"/Volumes/Web/thewalters/Gruntfile.js",
+		"/Volumes/Web/thewalters/assets/less/layouts/pages/_calendar.less",
+		"/Volumes/Web/thewalters/events2/event.aspx",
+		"/Volumes/Web/thewalters/works_of_art/itemdetails.aspx",
+		"/Users/Dylan/Desktop/oveja.tex",
+		"/Volumes/Web/thewalters/js/foobar/foobar-custom.js",
+		"/Volumes/Web/thewalters/events2/event.aspx.vb",
+		"/Volumes/Web/thewalters/assets/js/share.min.js",
+		"/Volumes/Web/thewalters/controls/calendar_addthis.ascx",
+		"/Volumes/Web/thewalters/assets/js/share.js",
+		"/Users/Dylan/Desktop/maclog.txt",
+		"/Volumes/Web/thewalters/boxoffice/ticket.aspx",
+		"/Volumes/Web/thewalters/boxoffice/ticket.aspx.vb",
+		"/Volumes/Web/thewalters/visit/parking-test.aspx",
+		"/Volumes/Web/thewalters/visit/directions-parking.aspx",
+		"/Volumes/Web/thewalters/wcontent/pages/planavisit_parking.html",
+		"/Volumes/Web/thewalters/search/index.aspx",
+		"/Volumes/Web/thewalters/membership/register/index.aspx",
+		"/Volumes/Web/thewalters/_demo/membership-levels.html",
+		"/Volumes/Web/thewalters/wcontent/pages/giving_corporate_donor.html",
+		"/Volumes/Web/thewalters/exhibitions/public-property/visit.aspx",
+		"/Volumes/Web/thewalters/wcontent/seo/planavisit_parking.txt",
+		"/Volumes/Web/thewalters/wcontent/pages/rent_FAQ.html",
+		"/Volumes/Web/thewalters/maps/planning.html",
+		"/Volumes/Web/thewalters/exhibitions/maps/planning.html",
+		"/Volumes/Web/thewalters/education_art/FAQ_HS.pgc",
+		"/Volumes/Web/thewalters/exhibitions/japanese-cloisonne/visit.html",
+		"/Volumes/Web/thewalters/exhibitions/heroes/plan-your-visit.html",
+		"/Volumes/Web/thewalters/exhibitions/bedazzled/plan.html",
+		"/Volumes/Web/thewalters/_arc/exhibits/bedazzled/plan.html",
+		"/Volumes/Web/thewalters/about/jobs/intern/diversity.aspx",
+		"/Volumes/Web/thewalters/wcontent/pages/themuseum_jobs_internship.html",
+		"/Volumes/Web/thewalters/about/jobs/intern/default.aspx",
+		"/Volumes/Web/thewalters/visit/parking-widget.html",
+		"/Volumes/Shared/artbytes/artbytes3/handout_DRAFT.txt",
+		"/Users/Dylan/Desktop/ticket-categories.txt",
+		"/Volumes/Shared/artbytes/artbytes3/_tasks.txt",
+		"/Volumes/Web/thewalters/controls/calendar_event-meta.ascx",
+		"/Volumes/Web/thewalters/boxoffice/store.aspx",
+		"/Volumes/Web/thewalters/boxoffice/store_customerservice.aspx",
+		"/Volumes/Web/thewalters/boxoffice/tickets6.aspx",
+		"/Volumes/Web/thewalters/boxoffice/purchase4-2.aspx",
+		"/Volumes/Web/thewalters/boxoffice/members-first.aspx",
+		"/Volumes/Web/thewalters/boxoffice/index.aspx",
+		"/Volumes/Web/thewalters/store/purchase5.aspx",
+		"/Volumes/Web/thewalters/store/boxoffice.aspx",
+		"/Volumes/Web/thewalters/masterpages/event.master",
+		"/Volumes/Web/thewalters/events2/index.aspx",
+		"/Volumes/Web/thewalters/controls/calendar_widget.ascx",
+		"/Volumes/Web/thewalters/controls/calendar_widget.ascx.vb",
+		"/Users/Dylan/.bash_profile",
+		"/Volumes/web/thewalters/masterpages/calendar.master",
+		"/Volumes/Web/thewalters/assets/less/_bootstrap.less",
+		"/Volumes/Web/thewalters/events/exhibition.aspx",
+		"/Volumes/Web/thewalters/controls/header_calendar_new.ascx",
+		"/Users/Dylan/Desktop/diversity-internship-applications.txt",
+		"/Volumes/Web/thewalters/about/jobs/intern/apply.aspx",
+		"/Volumes/Web/thewalters/about/curators/spicer/index.aspx",
+		"/Volumes/Web/thewalters/wcontent/pages/curators_spicer.html",
+		"/Volumes/Web/thewalters/about/curators/nichols/index.aspx",
+		"/Volumes/Web/thewalters/about/curators/johnston/index.aspx",
+		"/Volumes/Web/thewalters/about/curators/landau/index.aspx",
+		"/Volumes/Web/thewalters/wcontent/pages/curators_landau.html",
+		"/Volumes/Web/thewalters/about/curators/herbert/index.aspx",
+		"/Volumes/Web/thewalters/wcontent/pages/curators_johnston.html",
+		"/Volumes/Web/thewalters/wcontent/pages/curators_herbert.html",
+		"/Volumes/Web/thewalters/sftp-config.json"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 125.0,
+		"where_history":
+		[
+			"*.less",
+			"<project>",
+			"/Volumes/web/thewalters/css",
+			"<project>",
+			"events/",
+			"/events/",
+			"*.less",
+			"/Volumes/web/thewalters/masterpages",
+			"/masterpages/",
+			"*.less",
+			"/Volumes/Web/thewalters/about/curators/",
+			"/Volumes/Web/thewalters/about/curators/*",
+			"/Volumes/Web/thewalters/about/curators/",
+			"/Volumes/Web/thewalters/",
+			"/Volumes/Web/thewalters/family",
+			"/Volumes/web/thewalters/",
+			"/Volumes/web/thewalters/exhibitions/bythebook/",
+			"/Volumes/web/thewalters/family",
+			"/Volumes/web/thewalters/admin",
+			"/Volumes/web/thewalters/admin2",
+			"/Volumes/web/thewalters/",
+			"/Volumes/web/thewalters/admin2/",
+			"/Volumes/web/thewalters/admin2",
+			"/Volumes/web/thewalters/admin2/js",
+			"<project>,/Volumes/web/thewalters/admin2/js",
+			"<project>",
+			"/Volumes/web/thewalters/exhibitions/peer-one",
+			"<open folders>",
+			"/Volumes/web/thewalters/exhibitions/peer-one/",
+			"/Volumes/web/thewalters",
+			"<project>",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"1.25em",
+			"margin-bottom",
+			".5em",
+			"image",
+			"txtproductImage",
+			"\"",
+			"rdPrice",
+			"ltrPriceTag",
+			"ltrStartDate",
+			"    dim ",
+			"txtmaxItems",
+			"txtCouponCode",
+			"txtinput",
+			"/css/bootstrap/css/bootstrap-custom.css",
+			"basepage-bootstrap-simple.master",
+			"----",
+			"&nbsp;",
+			"&mdash;",
+			"&mdash; ",
+			"&mdash;",
+			"CssClass=\"nav\"",
+			"asp:HyperLink",
+			"</li>",
+			"img alt",
+			"donations",
+			"section class=\"\"",
+			"</div>",
+			"<br class=\"clear\" />",
+			"<div class=\"\">",
+			"class=\" last\"",
+			"span-7 prepend-1",
+			"class=\"span-7 prepend-1\"",
+			"errorText",
+			"error",
+			"CssClass=\"title",
+			"<label>",
+			"    Css",
+			"div",
+			"ltrPricing",
+			"proceed",
+			" class=\"form-group\"",
+			"class=\"text-danger\"",
+			"gsc",
+			"ltrRegister",
+			"-button",
+			"export",
+			"share-button",
+			"#E56442",
+			" target=\"_blank\"",
+			" style=\"text-align: justify;\"",
+			" style=\"text-align: center;\"",
+			"usp_Shopping_GetTicketItems",
+			".css",
+			"single-use",
+			"Parking Passes",
+			"parking",
+			"Museum visitors are eligible for reduced rates",
+			"parking",
+			"ltrImage",
+			"image",
+			"ltrImage",
+			"ltrRegister",
+			"txtPrice",
+			"Product_type_id",
+			"ltrRegister",
+			"QueryString",
+			"body",
+			"<!-- Custom CSS for all pages that use this section's master -->",
+			".vevent .photo",
+			"margin-bottom: 1.65em;",
+			"ltrRegister",
+			"\"ErrorMessage",
+			"usp_Calendar_GetEvent_SEO",
+			"strMetatags",
+			"Protected Sub Page_Load",
+			"strMetatags",
+			"em>",
+			"<%@ Register Tagprefix=\"CTL\" Tagname=\"Sidenav\" src=\"~/about/_sidenav.ascx\" %>",
+			"<%@ Register Tagprefix=\"CTL\" Tagname=\"Sidenav\" src=\"/about/_sidenav.ascx\" %>",
+			"",
+			"1 single-use Parking Pass",
+			"SELECT",
+			"usp_Shopping_GetTicketItems",
+			"III",
+			"Art Bytes",
+			"’",
+			"tbl_calendar_events_tag",
+			"'camp'",
+			",",
+			"39",
+			"inclement",
+			"GetProductEventCrossover",
+			"event_id",
+			"strP",
+			"/fonts",
+			" exhibition ",
+			"exhibition",
+			"\">",
+			"auto",
+			"theme",
+			"autoprefixer:theme",
+			"bootstrap/less/",
+			"../vendor/",
+			"less",
+			"dist",
+			"class='>",
+			"\"",
+			" >",
+			"	",
+			"http://thewalters.org/images/articles/",
+			"Please enter a value",
+			" style=\"width: 100%;\"",
+			"\"subnav\"",
+			"\"nav",
+			"<asp:HyperLink",
+			"CssClass=\"subnav\"",
+			"CssClass=\"nav\"",
+			"<asp:HyperLink",
+			"open on new year's",
+			"  <article class=\"col-xs-6\">",
+			"    </div>\n  </div>",
+			"<div class=\"col-xs-6\">",
+			"</p></div>",
+			"xs-4",
+			"thumbnail col-xs-4",
+			"class=\"thumbnail\"",
+			"span-7 prepend-1",
+			"430"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"<%@ Register Tagprefix=\"CTL\" Tagname=\"Sidenav\" src=\"/about/_sidenav2.ascx\" %>",
+			"",
+			"/admin/",
+			"<i class=\"fa fa-calendar\"></i> ",
+			"&larr; Previous",
+			"Next &rarr;",
+			"fa fa-calendar",
+			"CssClass=\"input-lg\"",
+			"alert alert-danger",
+			"<%@ Page Language=\"VB\"  ContentType=\"text/html\" AutoEventWireup=\"true\"  MasterPageFile=\"/admin2/masterpages/admin.master\" Title=\"Content Manager | Walters Art Museum\"  ResponseEncoding=\"iso-8859-1\" %>",
+			"/admin2/",
+			"</asp:content>",
+			"<%@ Page Language=\"VB\"  ContentType=\"text/html\" AutoEventWireup=\"true\"  MasterPageFile=\"/admin2/masterpages/admin.master\" Title=\"Content Manager | Walters Art Museum\"  ResponseEncoding=\"iso-8859-1\" %>",
+			"<asp:content ContentPlaceHolderID=\"PrimaryContent\" runat=\"server\">",
+			"<%@ Page Language=\"VB\"  ContentType=\"text/html\" AutoEventWireup=\"true\"  MasterPageFile=\"/admin2/masterpages/admin.master\" Title=\"Content Manager | Walters Art Museum\"  ResponseEncoding=\"iso-8859-1\" %>",
+			"<asp:content ContentPlaceHolderID=\"PrimaryContent\"  runat=\"server\">",
+			"CssClass=\"btn btn-primary\"",
+			"<table class=\"table table-striped table-bordered table-hover\"",
+			"",
+			"class=\"alert alert-warning\"",
+			"    ",
+			"</asp:content>",
+			"",
+			"	AlternatingItemStyle-CssClass=\"even\"",
+			"</asp:content>",
+			"CssClass=\"table table-striped table-bordered table-hover\"",
+			" class=\"btn\"",
+			" ",
+			"table",
+			"",
+			"visible=\"false\"",
+			"id=\"tblError\"",
+			"runat=\"server\"",
+			"</asp:content>",
+			"<asp:content ContentPlaceHolderID=\"PrimaryContent\"  runat=\"server\">",
+			"<%@ Page Language=\"VB\"  ContentType=\"text/html\" AutoEventWireup=\"true\"  MasterPageFile=\"/admin2/masterpages/admin.master\" Title=\"Content Manager | Walters Art Museum\"  ResponseEncoding=\"iso-8859-1\" %>",
+			"",
+			"ItemStyle-CssClass=\"btn\"",
+			"	PagerStyle-CssClass=\"pagination pagination-lg\"",
+			"	ItemStyle-CssClass=\"odd\"",
+			"	ItemStyle-CssClass=\"\"",
+			" CssClass=\"btn\"",
+			"",
+			"MemberTransactionsGrid.",
+			"<hr/>",
+			"CssClass=\"btn\"",
+			"</asp:content>",
+			"<%@ Page Language=\"VB\"  ContentType=\"text/html\" AutoEventWireup=\"true\"  MasterPageFile=\"/admin2/masterpages/admin.master\" Title=\"Content Manager | Walters Art Museum\"  ResponseEncoding=\"iso-8859-1\" %>",
+			"        <!-- Google Analytics -->\n            <script>\n            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\n            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\n            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\n            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');\n\n            ga('create', 'UA-2335737-1', 'auto'); \n            ga('require', 'displayfeatures');\n            ga('send', 'pageview');\n\n            </script>\n            <link href=\"http://plus.google.com/109810757560061910302\" rel=\"publisher\" />\n        <!-- End Google Analytics -->",
+			"<!-- Google Analytics -->\n<script>\n(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\n(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\nm=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\n})(window,document,'script','//www.google-analytics.com/analytics.js','ga');\n\nga('create', 'UA-2335737-1', 'auto'); \nga('require', 'displayfeatures');\nga('require', 'linkid', 'linkid.js');\nga('send', 'pageview');\n\n</script>\n<!-- End Google Analytics -->",
+			"'",
+			"href=\"books/",
+			"-/ ",
+			"\n",
+			"thewalters.org\n",
+			"\n",
+			",62|76,2603,827,0,0,N,",
+			",",
+			",,",
+			"<hr/><h3>",
+			" ",
+			"",
+			"Katzenelnbogen",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"WordCountSyntax": "plain text",
+							"apply_syntax_touched": true,
+							"bs_sintax": "plain text",
+							"incomplete_sync": null,
+							"is_xml": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 38.0
+	},
+	"input":
+	{
+		"height": 39.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 211.0
+	},
+	"pinned_build_system": "",
+	"project": "email-blueprints.sublime-project",
+	"replace":
+	{
+		"height": 72.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"/Volumes/Web/Email Marketing/templates/responsive /newsletter-side-right/index.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"/Volumes/Shared/Exhibitions/rye-raphael/mobile-site/rye-mobile-site.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+		"fss_on_distraction_free": false,
+		"fss_on_full_screen": false
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 404.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
