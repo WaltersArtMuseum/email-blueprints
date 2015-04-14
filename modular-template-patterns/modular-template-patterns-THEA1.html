@@ -1,0 +1,1325 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>*|MC:SUBJECT|*</title>
+    
+    <!--
+      Outlook Conditional CSS
+    -->
+  <style type="text/css">
+    body,#bodyTable,#bodyCell{
+      height:100% !important;
+      margin:0;
+      padding:0;
+      width:100% !important;
+    }
+    table{
+      border-collapse:collapse;
+    }
+    img,a img{
+      border:0;
+      outline:none;
+      text-decoration:none;
+    }
+    h1,h2,h3,h4,h5,h6{
+      margin:0;
+      padding:0;
+    }
+    p{
+      margin:1em 0;
+    }
+    .ReadMsgBody{
+      width:100%;
+    }
+    .ExternalClass{
+      width:100%;
+    }
+    .ExternalClass,.ExternalClass p,.ExternalClass span,.ExternalClass font,.ExternalClass td,.ExternalClass div{
+      line-height:100%;
+    }
+    table,td{
+      mso-table-lspace:0pt;
+      mso-table-rspace:0pt;
+    }
+    #outlook a{
+      padding:0;
+    }
+    img{
+      -ms-interpolation-mode:bicubic;
+    }
+    body,table,td,p,a,li,blockquote{
+      -ms-text-size-adjust:100%;
+      -webkit-text-size-adjust:100%;
+    }
+    .flexibleContainerCell{
+      padding-top:20px;
+      padding-Right:20px;
+      padding-Left:20px;
+    }
+    .flexibleImage{
+      height:auto;
+    }
+    .bottomShim{
+      padding-bottom:20px;
+    }
+    .imageContent,.imageContentLast{
+      padding-bottom:20px;
+    }
+    .nestedContainerCell{
+      padding-top:20px;
+      padding-Right:20px;
+      padding-Left:20px;
+    }
+    body,#bodyTable{
+      /*@editable*/background-color:#eceae6;
+    }
+    #bodyCell{
+      padding-top:40px;
+      padding-bottom:40px;
+    }
+  /*
+  @tab Page
+  @section background color
+  @tip Set the background color for your email. You may want to choose one that matches your company's branding.
+  @theme page
+  */
+    #emailBody{
+      /*@editable*/background-color:#ffffff;
+    }
+  /*
+  @tab Page
+  @section heading 1
+  @tip Set the styling for all first-level headings in your emails. These should be the largest of your headings.
+  @theme heading1
+  */
+    h1,.h1{
+      /*@editable*/color:#202020;
+      display:block;
+      /*@editable*/font-family:Arial;
+      /*@editable*/font-size:34px;
+      /*@editable*/font-weight:bold;
+      /*@editable*/line-height:100%;
+      margin-bottom:10px;
+      /*@editable*/text-align:left;
+    }
+  /*
+  @tab Page
+  @section heading 2
+  @tip Set the styling for all second-level headings in your emails.
+  @theme heading2
+  */
+    h2,.h2{
+      /*@editable*/color:#202020;
+      display:block;
+      /*@editable*/font-family:Arial;
+      /*@editable*/font-size:30px;
+      /*@editable*/font-weight:bold;
+      /*@editable*/line-height:100%;
+      margin-bottom:10px;
+      /*@editable*/text-align:left;
+    }
+  /*
+  @tab Page
+  @section heading 3
+  @tip Set the styling for all third-level headings in your emails.
+  @theme heading3
+  */
+    h3,.h3{
+      /*@editable*/color:#b80d0d;
+      display:block;
+      /*@editable*/font-family:Arial;
+      /*@editable*/font-size:26px;
+      /*@editable*/font-weight:bold;
+      /*@editable*/line-height:100%;
+      margin-bottom:10px;
+      /*@editable*/text-align:left;
+    }
+  /*
+  @tab Page
+  @section heading 4
+  @tip Set the styling for all fourth-level headings in your emails. These should be the smallest of your headings.
+  @theme heading4
+  */
+    h4,.h4{
+      /*@editable*/color:#202020;
+      display:block;
+      /*@editable*/font-family:'Comic Sans MS', 'Marker Felt-Thin', Arial, sans-serif;
+      /*@editable*/font-size:22px;
+      /*@editable*/font-weight:bold;
+      /*@editable*/line-height:100%;
+      margin-bottom:10px;
+      /*@editable*/text-align:left;
+    }
+  /*
+  @tab Page
+  @section text content
+  @tip Set the styling for text content.
+  @theme textcontent
+  */
+    .textContent,.textContentLast{
+      /*@editable*/color:#404040;
+      /*@editable*/font-family:Arial, 'Helvetica Neue', Helvetica, sans-serif;
+      /*@editable*/font-size:16px;
+      /*@editable*/line-height:125%;
+      /*@editable*/text-align:Left;
+      /*@editable*/padding-bottom:20px;
+    }
+  /*
+  @tab Page
+  @section text content link
+  @tip Set the styling for text content.
+  @theme textcontentlink
+  */
+    .textContent a,.textContentLast a{
+      /*@editable*/color:#dc143c;
+      /*@editable*/text-decoration:underline;
+    }
+    .nestedContainer{
+      /*@editable*/background-color:#E5E5E5;
+      /*@editable*/border:1px solid #CCCCCC;
+    }
+    .emailButton{
+      /*@editable*/background-color:#E56442;
+      border-collapse:separate;
+      border-radius:4px;
+    }
+  /*
+  @tab Page
+  @section button content
+  @tip Set the styling for button content.
+  @theme buttoncontent
+  */
+    .buttonContent{
+      /*@editable*/color:#d63535;
+      /*@editable*/font-family:Arial, 'Helvetica Neue', Helvetica, sans-serif;
+      /*@editable*/font-size:18px;
+      /*@editable*/font-weight:bold;
+      /*@editable*/line-height:100%;
+      /*@editable*/padding:15px;
+      /*@editable*/text-align:center;
+    }
+    .buttonContent a{
+      /*@editable*/color:#FFFFFF;
+      /*@editable*/display:block;
+      /*@editable*/text-decoration:none;
+      /*@editable*/text-transform:uppercase;
+    }
+    .emailCalendar{
+      /*@editable*/background-color:#FFFFFF;
+      /*@editable*/border:1px solid #CCCCCC;
+    }
+    .emailCalendarMonth{
+      /*@editable*/background-color:#2C9AB7;
+      /*@editable*/color:#FFFFFF;
+      /*@editable*/font-family:Helvetica, Arial, sans-serif;
+      /*@editable*/font-size:16px;
+      /*@editable*/font-weight:bold;
+      /*@editable*/padding-top:10px;
+      /*@editable*/padding-bottom:10px;
+      /*@editable*/text-align:center;
+    }
+    .emailCalendarDay{
+      /*@editable*/color:#2C9AB7;
+      /*@editable*/font-family:Helvetica, Arial, sans-serif;
+      /*@editable*/font-size:60px;
+      /*@editable*/font-weight:bold;
+      /*@editable*/line-height:100%;
+      /*@editable*/padding-top:20px;
+      /*@editable*/padding-bottom:20px;
+      /*@editable*/text-align:center;
+    }
+  @media only screen and (max-width: 480px){
+    body{
+      width:100% !important;
+      min-width:100% !important;
+    }
+
+} @media only screen and (max-width: 480px){
+    table[id=emailBody],table[class=flexibleContainer]{
+      width:100% !important;
+    }
+
+} @media only screen and (max-width: 480px){
+    td[class=social]{
+      width:216px !important;
+      display:block !important;
+    }
+
+} @media only screen and (max-width: 480px){
+    img[class=flexibleImage]{
+      height:auto !important;
+      width:100% !important;
+    }
+
+} @media only screen and (max-width: 480px){
+    table[class=emailButton]{
+      width:100% !important;
+    }
+
+} @media only screen and (max-width: 480px){
+    td[class=buttonContent]{
+      padding:0 !important;
+    }
+
+} @media only screen and (max-width: 480px){
+    td[class=buttonContent] a{
+      padding:15px !important;
+    }
+
+} @media only screen and (max-width: 480px){
+    td[class=textContentLast],td[class=imageContentLast]{
+      padding-top:20px !important;
+    }
+
+} @media only screen and (max-width: 480px){
+    td[id=bodyCell]{
+      padding-top:10px !important;
+      padding-Right:10px !important;
+      padding-Left:10px !important;
+    }
+
+}</style></head>
+  <body>
+    <center>
+    <table border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" id="bodyTable">
+      <tr>
+        <td align="center" valign="top" id="bodyCell">
+          <!-- EMAIL CONTAINER // -->
+          <!--
+              The table "emailBody" is the email's container.
+              Its width can be set to 100% for a color band
+              that spans the width of the page.
+          -->
+          <table border="0" cellpadding="0" cellspacing="0" width="600" id="emailBody">
+            <tr>
+              <td align="center" valign="top">
+                <!-- CENTERING TABLE // -->
+                <!--
+                                                    The centering table keeps the content
+                                                        tables centered in the emailBody table,
+                                                        in case its width is set to 100%.
+                -->
+                <!-- START OF TOP LINKS BLOCK
+                    ***Note: This area and logo area needs to be fixed to make responsive sizing to work properly -Thea-->
+                <table class="table-660" width="100%" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#eceae6" style="padding:0; margin: 0; ">
+                  <tr>
+                    <td bgcolor="#eceae6" align="left" style="padding: 30px 0px 10px 0px; font-size:10px ; font-family: 'Lucida Grande', Helvetica, Arial, sans-serif; line-height: 12px;" mc:edit="preheader_content00">What will you discover?</td>
+                    <td bgcolor="#eceae6" align="right" style="padding: 30px 0px 10px 0px; font-size:10px ; font-family: 'Lucida Grande', Helvetica, Arial, sans-serif; line-height: 12px; font-style:normal;" mc:edit="content_41"><span><a class="top-link" href="*|ARCHIVE|*">VIEW ONLINE</a> &nbsp;|&nbsp; <a class="top-link" href="*|FORWARD|*">FORWARD TO FRIENDS</a> </span></td>
+                  </tr>
+                </table>
+                <!-- END OF TOP LINKS BLOCK-->
+                <!-- START OF LOGO AND SOCIAL ICONS BLOCK-->
+                <table class="table-660" width="100%" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#ffffff" style="padding:0; margin: 0; ">
+                  <tr>
+                    <!-- START OF LOGO HERE-->
+                    <td class="logo" colspan="2" width="50%" bgcolor="#ffffff" align="left" valign="top" style="padding: 30px; font-size:12px ; font-family: 'Lucida Grande', Helvetica, Arial, sans-serif; line-height: 22px; font-style: italic;" mc:edit="header">
+                      <span>
+                      <a href="#" style="color:#ffffff;">
+                      <img src="http://gallery.mailchimp.com/584a9af78fbfab46d4367a219/images/logo.jpg" alt="logo"></a>
+                      </span>
+                    </td>
+                    <!-- END OF LOGO HERE-->
+                    <!-- START OF SOCIAL ICONS HERE
+                                <td class="social" colspan="2" width="50%" bgcolor="#ffffff" align="right" valign="middle" style="padding: 30px; font-size:12px ; font-family: 'Lucida Grande', Helvetica, Arial, sans-serif; line-height: 22px; font-style: italic;">
+                                    <span>
+                                      <a href="https://www.facebook.com/walters.art.museum" style="color:#ffffff;">
+                                        <img src="http://gallery.mailchimp.com/584a9af78fbfab46d4367a219/images/facebook.jpg" alt="facebook" border="0"></a>
+                                      &nbsp;
+                                      <a href="https://twitter.com/walters_museum" style="color:#ffffff;">
+                                        <img src="http://gallery.mailchimp.com/584a9af78fbfab46d4367a219/images/twitter.jpg" alt="twitter" border="0"></a>
+                                      &nbsp;
+                                      <a href="http://pinterest.com/waltersmuseum/" style="color:#ffffff;">
+                                        <img src="http://gallery.mailchimp.com/584a9af78fbfab46d4367a219/images/pinterest.jpg" alt="pinterest" border="0"></a>
+                                      &nbsp;
+                                      <a href="http://vimeo.com/waltersartmuseum" style="color:#E56442;">
+                                        <img src="http://gallery.mailchimp.com/584a9af78fbfab46d4367a219/images/vimeo.jpg" alt="vimeo" border="0"></a>
+                                    </span>
+                                </td>
+                    END OF SOCIAL ICONS HERE-->
+                  </tr>
+
+                </table>
+                <!-- END OF LOGO AND SOCIAL ICONS BLOCK-->
+                <table border="0" cellpadding="0" cellspacing="0" width="100%">
+
+            <!-- MODULE ROW // -->
+            <!--
+              To move or duplicate any of the design patterns
+              in this email, simply move or copy the entire
+              MODULE ROW section for each content block.
+            -->                  
+
+                  <tr mc:repeatable="1coltext" mc:variant="one column of plain text">
+                    <td align="center" valign="top">
+                      <!-- FLEXIBLE CONTAINER // -->
+                      <!--
+                          The flexible container has a set width
+                              that gets overridden by the media query.
+                              Most content tables within can then be
+                              given 100% widths.
+                      -->
+                      <table border="0" cellpadding="0" cellspacing="0" width="600" class="flexibleContainer">
+                        <tr>
+                          <td align="center" valign="top" width="600" class="flexibleContainerCell">
+                            <!-- CONTENT TABLE // -->
+                            <!--
+                              The content table is the first element
+                              that's entirely separate from the structural
+                              framework of the email.
+                            -->
+                            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                              <tr>
+                                <td valign="top" class="textContent">
+                                  <h3 style="font-size: 20px;line-height: 25px;color: #A0907D;text-transform: uppercase;font-weight: 700;-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;margin: 0;" mc:edit="1coltexthead">Title</h3>
+                                  <br>
+                                  <span mc:edit="1coltextbody">The Walters Art Museum brings art and people together for enjoyment, discovery, and learning. We strive to create a place where people of every background can be touched by art.</span>
+                                </td>
+                              </tr>
+                            </table>
+                            <!-- // CONTENT TABLE -->
+                          </td>
+                        </tr>
+                      </table>
+                      <!-- // FLEXIBLE CONTAINER -->
+                    </td>
+                  </tr>
+                </table>
+                <!-- // CENTERING TABLE -->
+              </td>
+            </tr>
+
+
+            <!-- MODULE ROW 2-text-columns // -->
+            <tr mc:repeatable="2-text-columns" mc:variant="two columns of plain text">
+              <td align="center" valign="top">
+                <!-- CENTERING TABLE // -->
+                <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                  <tr>
+                    <td align="center" valign="top">
+                      <!-- FLEXIBLE CONTAINER // -->
+                      <table border="0" cellpadding="0" cellspacing="0" width="600" class="flexibleContainer">
+                        <tr>
+                          <td valign="top" width="600" class="flexibleContainerCell">
+                            <!-- CONTENT TABLE // -->
+                            <!--
+                                In multi-column content blocks, the
+                                    content tables are given set widths
+                                    and the flexibleContainer class.
+                            -->
+                            <table align="Left" border="0" cellpadding="0" cellspacing="0" width="260" class="flexibleContainer">
+                              <tr>
+                                <td valign="top" class="textContent">
+                                  <h3 style="font-size: 20px;line-height: 25px;color: #A0907D;text-transform: uppercase;font-weight: 700;-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;margin: 0;" mc:edit="2textcolumns_leftheadline">Left Column</h3>
+                                  <br>
+                                  <span mc:edit="2textcolumns_lefttext">The Walters Art Museum brings art and people together for enjoyment, discovery, and learning. We strive to create a place where people of every background can be touched by art.</span>
+                                </td>
+                              </tr>
+                            </table>
+                            <!-- // CONTENT TABLE -->
+                            <!-- CONTENT TABLE // -->
+                            <table align="Right" border="0" cellpadding="0" cellspacing="0" width="260" class="flexibleContainer">
+                              <tr>
+                                <td valign="top" class="textContentLast">
+                                  <h3 style="font-size: 20px;line-height: 25px;color: #A0907D;text-transform: uppercase;font-weight: 700;-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;margin: 0;" mc:edit="2textcolumns_rightheadline">Right Column</h3>
+                                  <br>
+                                  <span mc:edit="2textcolumns_righttext">The Walters Art Museum brings art and people together for enjoyment, discovery, and learning. We strive to create a place where people of every background can be touched by art.</span>
+                                </td>
+                              </tr>
+                            </table>
+                            <!-- // CONTENT TABLE -->
+                          </td>
+                        </tr>
+                      </table>
+                      <!-- // FLEXIBLE CONTAINER -->
+                    </td>
+                  </tr>
+                </table>
+                <!-- // CENTERING TABLE -->
+              </td>
+            </tr>
+            <!-- // MODULE ROW -->
+
+
+            <!-- MODULE ROW emailButton // -->
+            <tr mc:repeatable="big-button" mc:variant="big action button">
+              <td align="center" valign="top">
+                <!-- CENTERING TABLE // -->
+                <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                  <tr>
+                    <td align="center" valign="top">
+                      <!-- FLEXIBLE CONTAINER // -->
+                      <table border="0" cellpadding="0" cellspacing="0" width="600" class="flexibleContainer">
+                        <tr>
+                          <td align="center" valign="top" width="600" class="flexibleContainerCell bottomShim">
+                            <!-- CONTENT TABLE // -->
+                            <!--
+                              The emailButton table's width can be changed
+                                  to affect the look of the button. To make the
+                                  button width dependent on the text inside, leave
+                                  the width blank. When a button is placed in a column,
+                                  it's helpful to set the width to 100%.
+                            -->
+                            <table border="0" cellpadding="0" cellspacing="0" width="260" class="emailButton">
+                              <tr>
+                                <td class="buttonContent" align="center" valign="middle" mc:edit="bigbutton">
+                                  <a href="#" target="_blank">Purchase Now</a>
+                                </td>
+                              </tr>
+                            </table>
+                            <!-- // CONTENT TABLE -->
+                          </td>
+                        </tr>
+                      </table>
+                      <!-- // FLEXIBLE CONTAINER -->
+                    </td>
+                  </tr>
+                </table>
+                <!-- // CENTERING TABLE -->
+              </td>
+            </tr>
+            <!-- // MODULE ROW -->
+
+
+            <!-- MODULE ROW 1-column-box // -->
+            <tr mc:repeatable="1-column-box" mc:variant="one column box">
+              <td align="center" valign="top">
+                <!-- CENTERING TABLE // -->
+                <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                  <tr>
+                    <td align="center" valign="top">
+                      <!-- FLEXIBLE CONTAINER // -->
+                      <table border="0" cellpadding="0" cellspacing="0" width="600" class="flexibleContainer">
+                        <tr>
+                          <td align="center" valign="top" width="600" class="flexibleContainerCell bottomShim">
+                            <table border="0" cellpadding="0" cellspacing="0" width="100%" class="nestedContainer">
+                              <tr>
+                                <td align="center" valign="top" class="nestedContainerCell">
+                                  <!-- CONTENT TABLE // -->
+                                  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                    <tr>
+                                      <td valign="top" class="textContent">
+                                        <h3 style="font-size: 20px;line-height: 25px;color: #A0907D;text-transform: uppercase;font-weight: 700;-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;margin: 0;" mc:edit="1columnbox_headline">Title</h3>
+                                        <br>
+                                        <span mc:edit="1columnbox_text">The Walters Art Museum brings art and people together for enjoyment, discovery, and learning. We strive to create a place where people of every background can be touched by art.</span>
+                                      </td>
+                                    </tr>
+                                  </table>
+                                  <!-- // CONTENT TABLE -->
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </table>
+                      <!-- // FLEXIBLE CONTAINER -->
+                    </td>
+                  </tr>
+                </table>
+                <!-- // CENTERING TABLE -->
+              </td>
+            </tr>
+            <!-- // MODULE ROW -->
+
+
+            <!-- MODULE ROW 2-column-box // -->
+            <tr mc:repeatable="2-column-box" mc:variant="two column box">
+              <td align="center" valign="top">
+                <!-- CENTERING TABLE // -->
+                <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                  <tr>
+                    <td align="center" valign="top">
+                      <!-- FLEXIBLE CONTAINER // -->
+                      <table border="0" cellpadding="0" cellspacing="0" width="600" class="flexibleContainer">
+                        <tr>
+                          <td align="center" valign="top" width="600" class="flexibleContainerCell bottomShim">
+                            <table border="0" cellpadding="0" cellspacing="0" width="100%" class="nestedContainer">
+                              <tr>
+                                <td valign="top" class="nestedContainerCell">
+                                  <!-- CONTENT TABLE // -->
+                                  <table align="Left" border="0" cellpadding="0" cellspacing="0" width="240" class="flexibleContainer">
+                                    <tr>
+                                      <td valign="top" class="textContent">
+                                        <h3 style="font-size: 20px;line-height: 25px;color: #A0907D;text-transform: uppercase;font-weight: 700;-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;margin: 0;" mc:edit="2columnbox_leftheadline">Left Column</h3>
+                                        <br>
+                                        <span mc:edit="2columnbox_lefttext">The Walters Art Museum brings art and people together for enjoyment, discovery, and learning. We strive to create a place where people of every background can be touched by art.</span>
+                                      </td>
+                                    </tr>
+                                  </table>
+                                  <!-- // CONTENT TABLE -->
+
+
+                                  <!-- CONTENT TABLE // -->
+                                  <table align="Right" border="0" cellpadding="0" cellspacing="0" width="240" class="flexibleContainer">
+                                    <tr>
+                                      <td valign="top" class="textContentLast">
+                                        <h3 style="font-size: 20px;line-height: 25px;color: #A0907D;text-transform: uppercase;font-weight: 700;-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;margin: 0;" mc:edit="2columnboxheadline">Right Column</h3>
+                                        <br>
+                                        <span mc:edit="2colboxbody">The Walters Art Museum brings art and people together for enjoyment, discovery, and learning. We strive to create a place where people of every background can be touched by art.</span>
+                                      </td>
+                                    </tr>
+                                  </table>
+                                  <!-- // CONTENT TABLE -->
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </table>
+                      <!-- // FLEXIBLE CONTAINER -->
+                    </td>
+                  </tr>
+                </table>
+                <!-- // CENTERING TABLE -->
+              </td>
+            </tr>
+            <!-- // MODULE ROW -->
+
+
+            <!-- MODULE ROW callout // -->
+            <tr mc:repeatable="callout" mc:variant="callout">
+              <td align="center" valign="top">
+                <!-- CENTERING TABLE // -->
+                <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                  <tr>
+                    <td align="center" valign="top">
+                      <!-- FLEXIBLE CONTAINER // -->
+                      <table border="0" cellpadding="0" cellspacing="0" width="600" class="flexibleContainer">
+                        <tr>
+                          <td align="center" valign="top" width="600" class="flexibleContainerCell bottomShim">
+                            <table border="0" cellpadding="0" cellspacing="0" width="100%" class="nestedContainer">
+                              <tr>
+                                <td align="center" valign="top" class="nestedContainerCell">
+                                  <!-- CONTENT TABLE // -->
+                                  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                    <tr>
+                                      <td valign="top" class="textContent">
+                                        <h3 style="font-size: 20px;line-height: 25px;color: #A0907D;text-transform: uppercase;font-weight: 700;-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;margin: 0;" mc:edit="calloutheadline">Callout</h3>
+                                        <br>
+                                        <span mc:edit="calloutbody">The Walters Art Museum brings art and people together for enjoyment, discovery, and learning. We strive to create a place where people of every background can be touched by art.</span>
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td align="center" valign="top" class="bottomShim">
+                                        <table border="0" cellpadding="0" cellspacing="0" width="260" class="emailButton">
+                                          <tr>
+                                            <td align="center" valign="middle" class="buttonContent">
+                                              <a href="#" target="_blank">Purchase Now</a>
+                                            </td>
+                                          </tr>
+                                        </table>
+                                      </td>
+                                    </tr>
+                                  </table>
+                                  <!-- // CONTENT TABLE -->
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </table>
+                      <!-- // FLEXIBLE CONTAINER -->
+                    </td>
+                  </tr>
+                </table>
+                <!-- // CENTERING TABLE -->
+              </td>
+            </tr>
+            <!-- // MODULE ROW -->
+
+
+            <!-- MODULE ROW flexible-image // -->
+            <tr mc:repeatable="flexible-image" mc:variant="flexible image">
+              <td align="center" valign="top">
+                <!-- CENTERING TABLE // -->
+                <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                  <tr>
+                    <td align="center" valign="top">
+                      <!-- FLEXIBLE CONTAINER // -->
+                      <table border="0" cellpadding="0" cellspacing="0" width="600" class="flexibleContainer">
+                        <tr>
+                          <td align="center" valign="top" width="600" class="flexibleContainerCell">
+                            <!-- CONTENT TABLE // -->
+                            <!--
+                              The table cell imageContent has padding
+                                  applied to the bottom as part of the framework,
+                                  ensuring images space correctly in Android Gmail.
+                            -->
+                            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                              <tr>
+                                <td valign="top" class="imageContent">
+                                  <img src="http://placehold.it/560x400" width="560" class="flexibleImage" style="max-width:560px;">
+                                </td>
+                              </tr>
+                            </table>
+                            <!-- // CONTENT TABLE -->
+                          </td>
+                        </tr>
+                      </table>
+                      <!-- // FLEXIBLE CONTAINER -->
+                    </td>
+                  </tr>
+                </table>
+                <!-- // CENTERING TABLE -->
+              </td>
+            </tr>
+            <!-- // MODULE ROW -->
+
+
+            <!-- MODULE ROW 2-column-images // -->
+            <tr mc:repeatable="2-column-images" mc:variant="two column images">
+              <td align="center" valign="top">
+                <!-- CENTERING TABLE // -->
+                <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                  <tr>
+                    <td align="center" valign="top">
+                      <!-- FLEXIBLE CONTAINER // -->
+                      <table border="0" cellpadding="0" cellspacing="0" width="600" class="flexibleContainer">
+                        <tr>
+                          <td align="center" valign="top" width="600" class="flexibleContainerCell">
+                            <!-- CONTENT TABLE // -->
+                            <table align="Left" border="0" cellpadding="0" cellspacing="0" width="260" class="flexibleContainer">
+                              <tr>
+                                <td align="Left" valign="top" class="imageContent">
+                                  <img src="http://placehold.it/260x260" width="260" class="flexibleImage" style="max-width:260px;">
+                                </td>
+                              </tr>
+                            </table>
+                            <!-- // CONTENT TABLE -->
+                            <!-- CONTENT TABLE // -->
+                            <table align="Right" border="0" cellpadding="0" cellspacing="0" width="260" class="flexibleContainer">
+                              <tr>
+                                <td align="Left" valign="top" class="imageContentLast">
+                                  <img src="http://placehold.it/260x260" width="260" class="flexibleImage" style="max-width:260px;">
+                                </td>
+                              </tr>
+                            </table>
+                            <!-- // CONTENT TABLE -->
+                          </td>
+                        </tr>
+                      </table>
+                      <!-- // FLEXIBLE CONTAINER -->
+                    </td>
+                  </tr>
+                </table>
+                <!-- // CENTERING TABLE -->
+              </td>
+            </tr>
+            <!-- // MODULE ROW -->
+
+
+            <!-- MODULE ROW coverstory // -->
+            <tr mc:repeatable="coverstory" mc:variant="coverstory">
+              <td align="center" valign="top">
+                <!-- CENTERING TABLE // -->
+                <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                  <tr>
+                    <td align="center" valign="top">
+                      <!-- FLEXIBLE CONTAINER // -->
+                      <table border="0" cellpadding="0" cellspacing="0" width="600" class="flexibleContainer">
+                        <tr>
+                          <td align="center" valign="top" width="600" class="flexibleContainerCell">
+                            <!-- CONTENT TABLE // -->
+                            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                              <tr>
+                                <td valign="top" class="imageContentLast">
+                                  <img src="http://placehold.it/560x400" width="560" class="flexibleImage" style="max-width:560px;">
+                                </td>
+                              </tr>
+                              <tr>
+                                <td valign="top" class="textContent">
+                                  <h3 style="font-size: 20px;line-height: 25px;color: #A0907D;text-transform: uppercase;font-weight: 700;-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;margin: 0;" mc:edit="coverstoryheadline">Title</h3>
+                                  <br>
+                                  <span mc:edit="coverbody">The Walters Art Museum brings art and people together for enjoyment, discovery, and learning. We strive to create a place where people of every background can be touched by art.</span>
+                                </td>
+                              </tr>
+                            </table>
+                            <!-- // CONTENT TABLE -->
+                          </td>
+                        </tr>
+                      </table>
+                      <!-- // FLEXIBLE CONTAINER -->
+                    </td>
+                  </tr>
+                </table>
+                <!-- // CENTERING TABLE -->
+              </td>
+            </tr>
+            <!-- // MODULE ROW -->
+
+
+            <!-- MODULE ROW // -->
+            <tr mc:repeatable="2-column-image-text" mc:variant="two column images with text">
+              <td align="center" valign="top">
+                <!-- CENTERING TABLE // -->
+                <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                  <tr>
+                    <td align="center" valign="top">
+                      <!-- FLEXIBLE CONTAINER // -->
+                      <table border="0" cellpadding="0" cellspacing="0" width="600" class="flexibleContainer">
+                        <tr>
+                          <td valign="top" width="600" class="flexibleContainerCell">
+                            <!-- CONTENT TABLE // -->
+                            <table align="Left" border="0" cellpadding="0" cellspacing="0" width="260" class="flexibleContainer">
+                              <tr>
+                                <td valign="top" class="imageContent">
+                                  <img src="http://placehold.it/260x260" width="260" class="flexibleImage" style="max-width:260px;">
+                                </td>
+                              </tr>
+                              <tr>
+                                <td valign="top" class="textContent">
+                                  <h3 style="font-size: 20px;line-height: 25px;color: #A0907D;text-transform: uppercase;font-weight: 700;-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;margin: 0;" mc:edit="2columnimagetextheadline">Left Column</h3>
+                                  <br>
+                                  <span mc:edit="2colimgtxtbody">The Walters Art Museum brings art and people together for enjoyment, discovery, and learning. We strive to create a place where people of every background can be touched by art.</span>
+                                </td>
+                              </tr>
+                            </table>
+                            <!-- // CONTENT TABLE -->
+                            <!-- CONTENT TABLE // -->
+                            <table align="Right" border="0" cellpadding="0" cellspacing="0" width="260" class="flexibleContainer">
+                              <tr>
+                                <td valign="top" class="imageContentLast">
+                                  <img src="http://placehold.it/260x260" width="260" class="flexibleImage" style="max-width:260px;">
+                                </td>
+                              </tr>
+                              <tr>
+                                <td valign="top" class="textContent">
+                                  <h3 style="font-size: 20px;line-height: 25px;color: #A0907D;text-transform: uppercase;font-weight: 700;-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;margin: 0;" mc:edit="2columnimageleftheadline2">Right Column</h3>
+                                  <br>
+                                  <span mc:edit="2colimglftbody">The Walters Art Museum brings art and people together for enjoyment, discovery, and learning. We strive to create a place where people of every background can be touched by art.</span>
+                                </td>
+                              </tr>
+                            </table>
+                            <!-- // CONTENT TABLE -->
+                          </td>
+                        </tr>
+                      </table>
+                      <!-- // FLEXIBLE CONTAINER -->
+                    </td>
+                  </tr>
+                </table>
+                <!-- // CENTERING TABLE -->
+              </td>
+            </tr>
+            <!-- // MODULE ROW -->
+
+
+            <!-- MODULE ROW // -->
+            <tr mc:repeatable="right-column" mc:variant="right column">
+              <td align="center" valign="top">
+                <!-- CENTERING TABLE // -->
+                <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                  <tr>
+                    <td align="center" valign="top">
+                      <!-- FLEXIBLE CONTAINER // -->
+                      <table border="0" cellpadding="0" cellspacing="0" width="600" class="flexibleContainer">
+                        <tr>
+                          <td valign="top" width="600" class="flexibleContainerCell">
+                            <!-- CONTENT TABLE // -->
+                            <table align="Left" border="0" cellpadding="0" cellspacing="0" width="200" class="flexibleContainer">
+                              <tr>
+                                <td align="Left" valign="top" class="imageContent">
+                                  <img src="http://placehold.it/200x200" width="200" class="flexibleImage" style="max-width:200px;">
+                                </td>
+                              </tr>
+                            </table>
+                            <!-- // CONTENT TABLE -->
+                            <!-- CONTENT TABLE // -->
+                            <table align="Right" border="0" cellpadding="0" cellspacing="0" width="340" class="flexibleContainer">
+                              <tr>
+                                <td valign="top" class="textContent">
+                                  <h3 style="font-size: 20px;line-height: 25px;color: #A0907D;text-transform: uppercase;font-weight: 700;-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;margin: 0;" mc:edit="rightcolumnheadline">Right Column</h3>
+                                  <br>
+                                  <span mc:edit="rcolbody">The Walters Art Museum brings art and people together for enjoyment, discovery, and learning. We strive to create a place where people of every background can be touched by art.</span>
+                                </td>
+                              </tr>
+                            </table>
+                            <!-- // CONTENT TABLE -->
+                          </td>
+                        </tr>
+                      </table>
+                      <!-- // FLEXIBLE CONTAINER -->
+                    </td>
+                  </tr>
+                </table>
+                <!-- // CENTERING TABLE -->
+              </td>
+            </tr>
+            <!-- // MODULE ROW -->
+
+
+            <!-- MODULE ROW // -->
+            <tr mc:repeatable="left-column" mc:variant="left column">
+              <td align="center" valign="top">
+                <!-- CENTERING TABLE // -->
+                <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                  <tr>
+                    <td align="center" valign="top">
+                      <!-- FLEXIBLE CONTAINER // -->
+                      <table border="0" cellpadding="0" cellspacing="0" width="600" class="flexibleContainer">
+                        <tr>
+                          <td valign="top" width="600" class="flexibleContainerCell">
+                            <!-- CONTENT TABLE // -->
+                            <!--
+                              Keeping the table markup in its original
+                                  order and swapping the align attribute values
+                                  allows the tables to wrap in the correct order
+                                  on small displays.
+                            -->
+                            <table align="Right" border="0" cellpadding="0" cellspacing="0" width="200" class="flexibleContainer">
+                              <tr>
+                                <td align="Left" valign="top" class="imageContent">
+                                  <img src="http://placehold.it/200x200" width="200" class="flexibleImage" style="max-width:200px;">
+                                </td>
+                              </tr>
+                            </table>
+                            <!-- // CONTENT TABLE -->
+                            <!-- CONTENT TABLE // -->
+                            <table align="Left" border="0" cellpadding="0" cellspacing="0" width="340" class="flexibleContainer">
+                              <tr>
+                                <td valign="top" class="textContent">
+                                  <h3 style="font-size: 20px;line-height: 25px;color: #A0907D;text-transform: uppercase;font-weight: 700;-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;margin: 0;" mc:edit="leftcolumnheadline">Left Column</h3>
+                                  <br>
+                                  <span mc:edit="lcolbody">The Walters Art Museum brings art and people together for enjoyment, discovery, and learning. We strive to create a place where people of every background can be touched by art.</span>
+                                </td>
+                              </tr>
+                            </table>
+                            <!-- // CONTENT TABLE -->
+                          </td>
+                        </tr>
+                      </table>
+                      <!-- // FLEXIBLE CONTAINER -->
+                    </td>
+                  </tr>
+                </table>
+                <!-- // CENTERING TABLE -->
+              </td>
+            </tr>
+            <!-- // MODULE ROW -->
+
+
+            <!-- MODULE ROW // -->
+            <tr mc:repeatable="box-coverstory" mc:variant="box cover story">
+              <td align="center" valign="top">
+                <!-- CENTERING TABLE // -->
+                <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                  <tr>
+                    <td align="center" valign="top">
+                      <!-- FLEXIBLE CONTAINER // -->
+                      <table border="0" cellpadding="0" cellspacing="0" width="600" class="flexibleContainer">
+                        <tr>
+                          <td align="center" valign="top" width="600" class="flexibleContainerCell bottomShim">
+                            <table border="0" cellpadding="0" cellspacing="0" width="100%" class="nestedContainer">
+                              <tr>
+                                <td align="center" valign="top" class="nestedContainerCell">
+                                  <!-- CONTENT TABLE // -->
+                                  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                    <tr>
+                                      <td valign="top" class="imageContent">
+                                        <img src="http://placehold.it/520x400" width="520" class="flexibleImage" style="max-width:520px;">
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td valign="top" class="textContent">
+                                        <h3 style="font-size: 20px;line-height: 25px;color: #A0907D;text-transform: uppercase;font-weight: 700;-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;margin: 0;" mc:edit="boxcoverstoryheadline">Title</h3>
+                                        <br>
+                                        <span mc:edit="coverboxbody">The Walters Art Museum brings art and people together for enjoyment, discovery, and learning. We strive to create a place where people of every background can be touched by art.</span>
+                                      </td>
+                                    </tr>
+                                  </table>
+                                  <!-- // CONTENT TABLE -->
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </table>
+                      <!-- // FLEXIBLE CONTAINER -->
+                    </td>
+                  </tr>
+                </table>
+                <!-- // CENTERING TABLE -->
+              </td>
+            </tr>
+            <!-- // MODULE ROW -->
+
+
+            <!-- MODULE ROW // -->
+            <tr mc:repeatable="2-column-images-box" mc:variant="two column images box">
+              <td align="center" valign="top">
+                <!-- CENTERING TABLE // -->
+                <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                  <tr>
+                    <td align="center" valign="top">
+                      <!-- FLEXIBLE CONTAINER // -->
+                      <table border="0" cellpadding="0" cellspacing="0" width="600" class="flexibleContainer">
+                        <tr>
+                          <td align="center" valign="top" width="600" class="flexibleContainerCell bottomShim">
+                            <table border="0" cellpadding="0" cellspacing="0" width="100%" class="nestedContainer">
+                              <tr>
+                                <td valign="top" class="nestedContainerCell">
+                                  <!-- CONTENT TABLE // -->
+                                  <table align="Left" border="0" cellpadding="0" cellspacing="0" width="240" class="flexibleContainer">
+                                    <tr>
+                                      <td valign="top" class="imageContent">
+                                        <img src="http://placehold.it/240x240" width="240" class="flexibleImage" style="max-width:240px;">
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td valign="top" class="textContent">
+                                        <h3 style="font-size: 20px;line-height: 25px;color: #A0907D;text-transform: uppercase;font-weight: 700;-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;margin: 0;" mc:edit="2colimgboxhead1">Left Column</h3>
+                                        <br>
+                                        <span mc:edit="2colimgboxbody">The Walters Art Museum brings art and people together for enjoyment, discovery, and learning. We strive to create a place where people of every background can be touched by art.</span>
+                                      </td>
+                                    </tr>
+                                  </table>
+                                  <!-- // CONTENT TABLE -->
+
+
+                                  <!-- CONTENT TABLE // -->
+                                  <table align="Right" border="0" cellpadding="0" cellspacing="0" width="240" class="flexibleContainer">
+                                    <tr>
+                                      <td valign="top" class="imageContentLast">
+                                        <img src="http://placehold.it/240x240" width="240" class="flexibleImage" style="max-width:240px;">
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td valign="top" class="textContent">
+                                        <h3 style="font-size: 20px;line-height: 25px;color: #A0907D;text-transform: uppercase;font-weight: 700;-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;margin: 0;" mc:edit="2colimgboxhead2">Right Column</h3>
+                                        <br>
+                                        <span mc:edit="2colimgboxbody2">The Walters Art Museum brings art and people together for enjoyment, discovery, and learning. We strive to create a place where people of every background can be touched by art.</span>
+                                      </td>
+                                    </tr>
+                                  </table>
+                                  <!-- // CONTENT TABLE -->
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </table>
+                      <!-- // FLEXIBLE CONTAINER -->
+                    </td>
+                  </tr>
+                </table>
+                <!-- // CENTERING TABLE -->
+              </td>
+            </tr>
+            <!-- // MODULE ROW -->
+
+
+            <!-- MODULE ROW // -->
+            <tr mc:repeatable="right-column-box" mc:variant="right-column-box">
+              <td align="center" valign="top">
+                <!-- CENTERING TABLE // -->
+                <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                  <tr>
+                    <td align="center" valign="top">
+                      <!-- FLEXIBLE CONTAINER // -->
+                      <table border="0" cellpadding="0" cellspacing="0" width="600" class="flexibleContainer">
+                        <tr>
+                          <td align="center" valign="top" width="600" class="flexibleContainerCell bottomShim">
+                            <table border="0" cellpadding="0" cellspacing="0" width="100%" class="nestedContainer">
+                              <tr>
+                                <td valign="top" class="nestedContainerCell">
+                                  <!-- CONTENT TABLE // -->
+                                  <table align="Left" border="0" cellpadding="0" cellspacing="0" width="200" class="flexibleContainer">
+                                    <tr>
+                                      <td align="Left" valign="top" class="imageContent">
+                                        <img src="http://placehold.it/200x200" width="200" class="flexibleImage" style="max-width:200px;">
+                                      </td>
+                                    </tr>
+                                  </table>
+                                  <!-- // CONTENT TABLE -->
+
+
+                                  <!-- CONTENT TABLE // -->
+                                  <table align="Right" border="0" cellpadding="0" cellspacing="0" width="280" class="flexibleContainer">
+                                    <tr>
+                                      <td valign="top" class="textContent">
+                                        <h3 style="font-size: 20px;line-height: 25px;color: #A0907D;text-transform: uppercase;font-weight: 700;-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;margin: 0;" mc:edit="rcolboxhead">Right Column</h3>
+                                        <br>
+                                        <span mc:edit="rcolboxbody">The Walters Art Museum brings art and people together for enjoyment, discovery, and learning. We strive to create a place where people of every background can be touched by art.</span>
+                                      </td>
+                                    </tr>
+                                  </table>
+                                  <!-- // CONTENT TABLE -->
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </table>
+                      <!-- // FLEXIBLE CONTAINER -->
+                    </td>
+                  </tr>
+                </table>
+                <!-- // CENTERING TABLE -->
+              </td>
+            </tr>
+            <!-- // MODULE ROW -->
+
+
+            <!-- MODULE ROW // -->
+            <tr mc:repeatable="left-column-box" mc:variant="left column box">
+              <td align="center" valign="top">
+                <!-- CENTERING TABLE // -->
+                <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                  <tr>
+                    <td align="center" valign="top">
+                      <!-- FLEXIBLE CONTAINER // -->
+                      <table border="0" cellpadding="0" cellspacing="0" width="600" class="flexibleContainer">
+                        <tr>
+                          <td align="center" valign="top" width="600" class="flexibleContainerCell bottomShim">
+                            <table border="0" cellpadding="0" cellspacing="0" width="100%" class="nestedContainer">
+                              <tr>
+                                <td valign="top" class="nestedContainerCell">
+                                  <!-- CONTENT TABLE // -->
+                                  <table align="Right" border="0" cellpadding="0" cellspacing="0" width="200" class="flexibleContainer">
+                                    <tr>
+                                      <td align="Left" valign="top" class="imageContent">
+                                        <img src="http://placehold.it/200x200" width="200" class="flexibleImage" style="max-width:200px;">
+                                      </td>
+                                    </tr>
+                                  </table>
+                                  <!-- // CONTENT TABLE -->
+
+
+                                  <!-- CONTENT TABLE // -->
+                                  <table align="Left" border="0" cellpadding="0" cellspacing="0" width="280" class="flexibleContainer">
+                                    <tr>
+                                      <td valign="top" class="textContent">
+                                        <h3 style="font-size: 20px;line-height: 25px;color: #A0907D;text-transform: uppercase;font-weight: 700;-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;margin: 0;" mc:edit="lcolboxhead">Left Column</h3>
+                                        <br>
+                                        <span mc:edit="lcolboxbody">The Walters Art Museum brings art and people together for enjoyment, discovery, and learning. We strive to create a place where people of every background can be touched by art.</span>
+                                      </td>
+                                    </tr>
+                                  </table>
+                                  <!-- // CONTENT TABLE -->
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </table>
+                      <!-- // FLEXIBLE CONTAINER -->
+                    </td>
+                  </tr>
+                </table>
+                <!-- // CENTERING TABLE -->
+              </td>
+            </tr>
+            <!-- // MODULE ROW -->
+
+
+            <!-- MODULE ROW // -->
+            <tr mc:repeatable="right-calendar-box" mc:variant="right calendar box">
+              <td align="center" valign="top">
+                <!-- CENTERING TABLE // -->
+                <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                  <tr>
+                    <td align="center" valign="top">
+                      <!-- FLEXIBLE CONTAINER // -->
+                      <table border="0" cellpadding="0" cellspacing="0" width="600" class="flexibleContainer">
+                        <tr>
+                          <td align="center" valign="top" width="600" class="flexibleContainerCell bottomShim">
+                            <table border="0" cellpadding="0" cellspacing="0" width="100%" class="nestedContainer">
+                              <tr>
+                                <td valign="top" class="nestedContainerCell">
+                                  <!-- CONTENT TABLE // -->
+                                  <table align="Left" border="0" cellpadding="0" cellspacing="0" width="160" class="flexibleContainer">
+                                    <tr>
+                                      <td align="center" valign="top" class="bottomShim">
+                                        <table border="0" cellpadding="0" cellspacing="0" width="160" class="emailCalendar">
+                                          <tr>
+                                            <td align="center" valign="top" style="padding:5px;">
+                                              <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                <tr>
+                                                  <td align="center" valign="top" class="emailCalendarMonth">
+                                                    September
+                                                  </td>
+                                                </tr>
+                                                <tr>
+                                                  <td align="center" valign="top" class="emailCalendarDay">
+                                                    16
+                                                  </td>
+                                                </tr>
+                                              </table>
+                                            </td>
+                                          </tr>
+                                        </table>
+                                      </td>
+                                    </tr>
+                                  </table>
+                                  <!-- // CONTENT TABLE -->
+
+
+                                  <!-- CONTENT TABLE // -->
+                                  <table align="Right" border="0" cellpadding="0" cellspacing="0" width="320" class="flexibleContainer">
+                                    <tr>
+                                      <td valign="top" class="textContent">
+                                        <h3 style="font-size: 20px;line-height: 25px;color: #A0907D;text-transform: uppercase;font-weight: 700;-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;margin: 0;" mc:edit="rcalboxhead">Right Column</h3>
+                                        <br>
+                                        <span mc:edit="rcalboxbody">The Walters Art Museum brings art and people together for enjoyment, discovery, and learning. We strive to create a place where people of every background can be touched by art.</span>
+                                      </td>
+                                    </tr>
+                                  </table>
+                                  <!-- // CONTENT TABLE -->
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </table>
+                      <!-- // FLEXIBLE CONTAINER -->
+                    </td>
+                  </tr>
+                </table>
+                <!-- // CENTERING TABLE -->
+              </td>
+            </tr>
+            <!-- // MODULE ROW -->
+
+
+            <!-- MODULE ROW // -->
+            <tr mc:repeatable="left-calendar-box" mc:variant="left calendar box">
+              <td align="center" valign="top">
+                <!-- CENTERING TABLE // -->
+                <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                  <tr>
+                    <td align="center" valign="top">
+                      <!-- FLEXIBLE CONTAINER // -->
+                      <table border="0" cellpadding="0" cellspacing="0" width="600" class="flexibleContainer">
+                        <tr>
+                          <td align="center" valign="top" width="600" class="flexibleContainerCell bottomShim">
+                            <table border="0" cellpadding="0" cellspacing="0" width="100%" class="nestedContainer">
+                              <tr>
+                                <td valign="top" class="nestedContainerCell">
+                                  <!-- CONTENT TABLE // -->
+                                  <table align="Right" border="0" cellpadding="0" cellspacing="0" width="160" class="flexibleContainer">
+                                    <tr>
+                                      <td align="center" valign="top" class="bottomShim">
+                                        <table border="0" cellpadding="0" cellspacing="0" width="160" class="emailCalendar">
+                                          <tr>
+                                            <td align="center" valign="top" style="padding:5px;">
+                                              <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                <tr>
+                                                  <td align="center" valign="top" class="emailCalendarMonth">
+                                                    September
+                                                  </td>
+                                                </tr>
+                                                <tr>
+                                                  <td align="center" valign="top" class="emailCalendarDay">
+                                                    16
+                                                  </td>
+                                                </tr>
+                                              </table>
+                                            </td>
+                                          </tr>
+                                        </table>
+                                      </td>
+                                    </tr>
+                                  </table>
+                                  <!-- // CONTENT TABLE -->
+
+
+                                  <!-- CONTENT TABLE // -->
+                                  <table align="Left" border="0" cellpadding="0" cellspacing="0" width="320" class="flexibleContainer">
+                                    <tr>
+                                      <td valign="top" class="textContent">
+                                        <h3 style="font-size: 20px;line-height: 25px;color: #A0907D;text-transform: uppercase;font-weight: 700;-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;margin: 0;" mc:edit="lcalboxhead">Left Column</h3>
+                                        <br>
+                                        <span mc:edit="rcalboxbody">The Walters Art Museum brings art and people together for enjoyment, discovery, and learning. We strive to create a place where people of every background can be touched by art.</span>
+                                      </td>
+                                    </tr>
+                                  </table>
+                                  <!-- // CONTENT TABLE -->
+
+
+                                  </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </table>
+                      <!-- // FLEXIBLE CONTAINER -->
+                    </td>
+                  </tr>
+                </table>
+                <!-- // CENTERING TABLE -->
+              </td>
+            </tr>
+            <!-- // MODULE ROW -->
+
+
+            <!-- START OF FOOTER AREA BLOCK
+              ***NOTE: This area and basement area needs to be fixed so it is responsive like the modules (Thea)-->
+    <table class="table-660" width="600px" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#AAA18F" style="padding:0; margin: 0; ">
+      <tr>
+
+        <!-- START OF FOOTER LEFT HERE-->
+        <td class="footer-left" colspan="2" width="70%" bgcolor="#AAA18F" align="left" valign="top" style="padding: 30px 15px 20px 30px; font-size:12px ; font-family: 'Lucida Grande', Helvetica, Arial, sans-serif; line-height: 15px; color:#191813;">
+          <p>
+            The Walters Art Museum brings art and people together for enjoyment, discovery, and learning. We strive to create a place where people of every background can be touched by art.
+          </p>
+          <br>
+
+          <p>
+            <a href="*|UPDATE_PROFILE|*" style="color:#191813;text-decoration:underline">update subscription preferences</a>
+            |
+            <a href="*|UNSUB|*" style="color:#191813;text-decoration:underline">unsubscribe from this list</a>
+          </p>
+
+        </td>
+        <!-- END OF FOOTER LEFT HERE-->
+
+        <!-- START OF FOOTER RIGHT HERE-->
+        <td class="footer-right" colspan="2" width="30%" bgcolor="#AAA18F" align="left" valign="top" style="padding:  30px 30px 20px 15px;  font-size:12px ; font-family: 'Lucida Grande', Helvetica, Arial, sans-serif; line-height: 15px;  color:#191813;">
+          <p> <strong><a href="http://thewalters.org/" style="color:#191813;text-decoration:none">The Walters Art Museum</a></strong>
+            <br>
+            600 N. Charles Street
+            <br>
+            Baltimore, MD 21201, USA
+            <br>
+            T: 410.547.9000
+            <br>
+            E:
+            <a href="mailto:info@thewalters.org" style="color:#191813;text-decoration:underline">info@thewalters.org</a>
+            <br></p>
+        </td>
+        <!-- END OF FOOTER RIGHT HERE-->
+      </tr>
+    </table>
+    <!-- END OF FOOTER AREA BLOCK-->
+
+    <!-- START basement-->
+    <table class="table-660" width="100%" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#eceae6" style="padding:0; margin: 0; ">
+      <tr>
+        <td width="100%" bgcolor="#eceae6" align="center" style="padding-bottom: 15px; line-height: 0 !important;">
+          <span>
+            <img class="img-radius" src="http://gallery.mailchimp.com/584a9af78fbfab46d4367a219/images/image_radius.jpg" alt="image radius" border="0"></span>
+        </td>
+      </tr>
+      <tr>
+        <td width="100%" bgcolor="#eceae6" align="center" style="padding-bottom: 30px; line-height: 0 !important;">
+          <p style="font-size:12px ; font-family: 'Lucida Grande', Helvetica, Arial, sans-serif; line-height: 22px;">
+            <a href="http://thewalters.org">THE WALTERS ART MUSEUM</a>
+            What Will You Discover
+            <a href="http://art.thewalters.org/browse/tag/egg/" style="color:#000000;">?</a>
+          </p>
+        </td>
+      </tr>
+    </table>
+    <!-- END OF BASEMENT-->
+
+                                
+                
+          </table>
+          <!-- // EMAIL CONTAINER -->
+        </td>
+      </tr>
+    </table>
+    </center>
+  </body>
+</html>

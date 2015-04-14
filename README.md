@@ -8,7 +8,7 @@ For clarification on the coding practices shown in these emails, or for general 
 Types
 -----
 
-- "newsletter"
+- "newsletter" `/modular-template-patterns/modular-template-patterns.html`
 - "postcard" or "invitation"
 - "letter"
 

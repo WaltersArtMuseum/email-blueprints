@@ -65,17 +65,20 @@
 				"buffer_size": 0,
 				"line_ending": "Unix"
 			}
+		},
+		{
+			"file": "/Volumes/Web/_projects/email-blueprints/modular-template-patterns/modular-template-patterns-THEA1.html",
+			"settings":
+			{
+				"buffer_size": 69003,
+				"line_ending": "Unix"
+			}
 		}
 	],
 	"build_system": "",
-	"build_system_choices":
-	[
-	],
-	"build_varint": "",
 	"command_palette":
 	{
 		"height": 367.0,
-		"last_filter": "vb",
 		"selected_items":
 		[
 			[
@@ -287,11 +290,7 @@
 	},
 	"console":
 	{
-		"height": 160.0,
-		"history":
-		[
-			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
-		]
+		"height": 160.0
 	},
 	"distraction_free":
 	{
@@ -302,10 +301,6 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
-	"expanded_folders":
-	[
-		"/Volumes/web/_projects/email-blueprints"
-	],
 	"file_history":
 	[
 		"/Volumes/web/_projects/email-blueprints/README.md",
@@ -443,7 +438,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 125.0,
+		"height": 0.0,
 		"where_history":
 		[
 			"*.less",
@@ -694,12 +689,11 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"semi_transient": false,
 					"settings":
 					{
 						"buffer_size": 0,
@@ -726,7 +720,34 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Volumes/Web/_projects/email-blueprints/modular-template-patterns/modular-template-patterns-THEA1.html",
+					"settings":
+					{
+						"buffer_size": 69003,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								65890,
+								65890
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 197.0,
+						"zoom_level": 1.0
+					},
 					"type": "text"
 				}
 			]
@@ -771,8 +792,6 @@
 	{
 		"height": 211.0
 	},
-	"pinned_build_system": "",
-	"project": "email-blueprints.sublime-project",
 	"replace":
 	{
 		"height": 72.0
@@ -781,7 +800,6 @@
 	"select_file":
 	{
 		"height": 0.0,
-		"last_filter": "",
 		"selected_items":
 		[
 			[
@@ -794,7 +812,6 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "",
 		"selected_items":
 		[
 			[
@@ -804,28 +821,10 @@
 		],
 		"width": 380.0
 	},
-	"select_symbol":
-	{
-		"height": 0.0,
-		"last_filter": "",
-		"selected_items":
-		[
-		],
-		"width": 0.0
-	},
-	"selected_group": 0,
-	"settings":
-	{
-		"fss_on_distraction_free": false,
-		"fss_on_full_screen": false
-	},
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
 	"side_bar_width": 404.0,
-	"status_bar_visible": true,
-	"template_settings":
-	{
-	}
+	"status_bar_visible": true
 }
